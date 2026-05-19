@@ -1,0 +1,576 @@
+[
+  {
+    "id": "info_sec_policies",
+    "label": "Information Security Policies",
+    "description": "A set of policies for information security shall be defined, approved by management, published and communicated to employees and relevant external parties.",
+    "category": "Governance",
+    "keywords": ["Policy", "Governance", "Standards", "Framework", "Management Intent"],
+    "mappings": {
+      "iso": {
+        "clause": "A.5.1.1",
+        "text": "Policies for information security shall be defined, approved by management, published and communicated to employees and relevant external parties."
+      },
+      "soc2": {
+        "clause": "CC1.1",
+        "text": "The entity demonstrates a commitment to integrity and ethical values through the establishment of standards of conduct."
+      },
+      "pci": {
+        "clause": "12.1",
+        "text": "Establish, publish, maintain, and disseminate a security policy that addresses all system components."
+      },
+      "gdpr": {
+        "clause": "Art. 24",
+        "text": "The controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation."
+      },
+      "dora": {
+        "clause": "Art. 6",
+        "text": "Financial entities shall have a sound, comprehensive and well-documented ICT risk management framework."
+      },
+      "nist": {
+        "clause": "GV.PO",
+        "text": "Organizational cybersecurity policy is established, communicated, and enforced."
+      },
+      "cis": {
+        "clause": "Control 1",
+        "text": "Establish and Maintain Inventory and Control of Enterprise Assets."
+      },
+      "cobit": {
+        "clause": "APO01",
+        "text": "Managed I&T Management Framework."
+      }
+    }
+  },
+  {
+    "id": "org_info_sec",
+    "label": "Organization of Information Security",
+    "description": "Establish a management framework to initiate and control the implementation and operation of information security within the organization.",
+    "category": "Governance",
+    "keywords": ["Roles", "Responsibilities", "Governance", "Internal Organization", "Segregation of Duties"],
+    "mappings": {
+      "iso": {
+        "clause": "A.6.1.1",
+        "text": "Information security roles and responsibilities shall be defined and allocated in accordance with the organization policies."
+      },
+      "soc2": {
+        "clause": "CC1.2",
+        "text": "The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control."
+      },
+      "pci": {
+        "clause": "12.1.1",
+        "text": "The security policy is reviewed at least annually and updated as needed to reflect changes to business objectives or the risk environment."
+      },
+      "gdpr": {
+        "clause": "Art. 37",
+        "text": "The controller and the processor shall designate a data protection officer in any case where the processing is carried out by a public authority."
+      },
+      "dora": {
+        "clause": "Art. 5",
+        "text": "The management body shall define, approve, oversee and be responsible for the implementation of all arrangements related to the ICT risk management framework."
+      },
+      "nist": {
+        "clause": "GV.RR",
+        "text": "Cybersecurity roles and responsibilities are established and communicated."
+      },
+      "cis": {
+        "clause": "Control 1",
+        "text": "Establish and Maintain Inventory and Control of Enterprise Assets."
+      },
+      "cobit": {
+        "clause": "APO01.02",
+        "text": "Establish roles and responsibilities."
+      }
+    }
+  },
+  {
+    "id": "hr_security",
+    "label": "Human Resource Security",
+    "description": "Ensure that employees and contractors understand their responsibilities and are suitable for the roles for which they are considered.",
+    "category": "Personnel",
+    "keywords": ["HR", "Personnel", "Employee", "Training", "Awareness", "Onboarding", "Offboarding", "Background Check"],
+    "mappings": {
+      "iso": {
+        "clause": "A.7.2.2",
+        "text": "All employees of the organization and, where relevant, contractors shall receive appropriate awareness education and training."
+      },
+      "soc2": {
+        "clause": "CC1.4",
+        "text": "The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives."
+      },
+      "pci": {
+        "clause": "12.6",
+        "text": "Implement a formal security awareness program to make all personnel aware of the cardholder data security policy and procedures."
+      },
+      "gdpr": {
+        "clause": "Art. 39",
+        "text": "The data protection officer shall have the task of monitoring compliance and providing training of staff involved in processing operations."
+      },
+      "dora": {
+        "clause": "Art. 13",
+        "text": "Financial entities shall have in place ICT security awareness programs and digital operational resilience training for all employees."
+      },
+      "nist": {
+        "clause": "PR.AT",
+        "text": "The organization's personnel and partners are provided cybersecurity awareness education and are trained to perform their cybersecurity-related duties and responsibilities consistent with related policies, procedures, and agreements."
+      },
+      "cis": {
+        "clause": "Control 14",
+        "text": "Security Awareness and Skills Training."
+      },
+      "cobit": {
+        "clause": "APO07",
+        "text": "Managed Human Resources."
+      }
+    }
+  },
+  {
+    "id": "asset_management",
+    "label": "Asset Management",
+    "description": "Identify organizational assets and define appropriate protection responsibilities.",
+    "category": "Assets",
+    "keywords": ["Inventory", "CMDB", "Classification", "Ownership", "Hardware", "Software", "Information Assets"],
+    "mappings": {
+      "iso": {
+        "clause": "A.8.1.1",
+        "text": "Information, other assets associated with information and information processing facilities shall be identified and an inventory of these assets shall be drawn up and maintained."
+      },
+      "soc2": {
+        "clause": "CC3.2",
+        "text": "The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed."
+      },
+      "pci": {
+        "clause": "2.4",
+        "text": "Maintain an inventory of system components that are in scope for PCI DSS."
+      },
+      "gdpr": {
+        "clause": "Art. 30",
+        "text": "Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility."
+      },
+      "dora": {
+        "clause": "Art. 8",
+        "text": "Financial entities shall identify, classify and adequately document all ICT-related business functions and information assets."
+      },
+      "nist": {
+        "clause": "ID.AM",
+        "text": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization’s risk strategy."
+      },
+      "cis": {
+        "clause": "Control 1 & 2",
+        "text": "Inventory and Control of Enterprise Assets & Software Assets."
+      },
+      "cobit": {
+        "clause": "BAI09",
+        "text": "Managed Assets."
+      }
+    }
+  },
+  {
+    "id": "access_control",
+    "label": "Access Control",
+    "description": "Limit access to information and information processing facilities.",
+    "category": "Access",
+    "keywords": ["IAM", "Authentication", "Authorization", "RBAC", "Identity", "Password", "MFA", "Least Privilege"],
+    "mappings": {
+      "iso": {
+        "clause": "A.9.1.1",
+        "text": "An access control policy shall be established, documented and reviewed based on business and information security requirements."
+      },
+      "soc2": {
+        "clause": "CC6.1",
+        "text": "The entity implements logical access security software, infrastructure, and architectures over protected information assets."
+      },
+      "pci": {
+        "clause": "7.1",
+        "text": "Limit access to system components and cardholder data to only those individuals whose job requires such access."
+      },
+      "gdpr": {
+        "clause": "Art. 32",
+        "text": "The controller and processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk."
+      },
+      "dora": {
+        "clause": "Art. 9",
+        "text": "Financial entities shall design, develop and maintain ICT security policies that include the use of ICT security tools and processes."
+      },
+      "nist": {
+        "clause": "PR.AA",
+        "text": "Identity management, authentication, and access control are established, enforced, and managed."
+      },
+      "cis": {
+        "clause": "Control 6",
+        "text": "Access Control Management."
+      },
+      "cobit": {
+        "clause": "DSS05.04",
+        "text": "Manage user identity and logical access."
+      }
+    }
+  },
+  {
+    "id": "cryptography",
+    "label": "Cryptography",
+    "description": "Ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information.",
+    "category": "Data Protection",
+    "keywords": ["Encryption", "Hashing", "Keys", "PKI", "TLS", "SSL", "At Rest", "In Transit"],
+    "mappings": {
+      "iso": {
+        "clause": "A.10.1.1",
+        "text": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented."
+      },
+      "soc2": {
+        "clause": "CC6.1",
+        "text": "The entity restricts logical access to confidential information by using encryption at rest and in transit."
+      },
+      "pci": {
+        "clause": "3.4",
+        "text": "Render PAN unreadable anywhere it is stored by using strong cryptography with associated key-management processes."
+      },
+      "gdpr": {
+        "clause": "Art. 32(1)(a)",
+        "text": "The pseudonymisation and encryption of personal data as a measure of technical security."
+      },
+      "dora": {
+        "clause": "Art. 9",
+        "text": "Design and implement ICT security policies that include the use of cryptographic techniques to protect ICT assets."
+      },
+      "nist": {
+        "clause": "PR.DS",
+        "text": "Data is managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information."
+      },
+      "cis": {
+        "clause": "Control 3",
+        "text": "Data Protection."
+      },
+      "cobit": {
+        "clause": "DSS05.02",
+        "text": "Manage network and connectivity security."
+      }
+    }
+  },
+  {
+    "id": "physical_security",
+    "label": "Physical and Environmental Security",
+    "description": "Prevent unauthorized physical access, damage and interference to the organization’s information and information processing facilities.",
+    "category": "Physical",
+    "keywords": ["Physical", "Data Center", "CCTV", "Badge", "Perimeter", "Environmental", "Fire", "Flood"],
+    "mappings": {
+      "iso": {
+        "clause": "A.11.1.1",
+        "text": "Security perimeters shall be defined and used to protect areas that contain either sensitive or critical information and information processing facilities."
+      },
+      "soc2": {
+        "clause": "CC6.4",
+        "text": "The entity restricts physical access to facilities and data centers to authorized personnel to protect information assets."
+      },
+      "pci": {
+        "clause": "9.1",
+        "text": "Use appropriate facility entry controls to limit and monitor physical access to systems in the cardholder data environment."
+      },
+      "gdpr": {
+        "clause": "Art. 32",
+        "text": "Technical and organisational measures to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems."
+      },
+      "dora": {
+        "clause": "Art. 9",
+        "text": "Financial entities shall implement policies and protocols for physical security, including for ICT facilities."
+      },
+      "nist": {
+        "clause": "PR.PS",
+        "text": "Physical assets are managed and protected consistent with the organization’s risk strategy."
+      },
+      "cis": {
+        "clause": "Control 11",
+        "text": "Data Recovery."
+      },
+      "cobit": {
+        "clause": "DSS01.04",
+        "text": "Manage the environment."
+      }
+    }
+  },
+  {
+    "id": "ops_security",
+    "label": "Operations Security",
+    "description": "Ensure correct and secure operations of information processing facilities.",
+    "category": "Operations",
+    "keywords": ["Ops", "Backup", "Monitoring", "Logging", "Change Management", "Malware", "Patching", "Vulnerability Management"],
+    "mappings": {
+      "iso": {
+        "clause": "A.12.1.1",
+        "text": "Operating procedures shall be documented and made available to all users who need them."
+      },
+      "soc2": {
+        "clause": "CC7.1",
+        "text": "The entity uses detection and monitoring procedures to identify susceptibility to newly identified vulnerabilities and anomalies."
+      },
+      "pci": {
+        "clause": "1.1",
+        "text": "Establish and implement network security controls to manage network traffic to and from the CDE."
+      },
+      "gdpr": {
+        "clause": "Art. 32",
+        "text": "A process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures."
+      },
+      "dora": {
+        "clause": "Art. 10",
+        "text": "Financial entities shall establish mechanisms to promptly detect anomalous activities, including ICT network performance issues."
+      },
+      "nist": {
+        "clause": "PR.MA",
+        "text": "Maintenance and repairs of industrial control and information system components are performed consistent with policies and procedures."
+      },
+      "cis": {
+        "clause": "Control 8",
+        "text": "Audit Log Management."
+      },
+      "cobit": {
+        "clause": "DSS01",
+        "text": "Managed Operations."
+      }
+    }
+  },
+  {
+    "id": "comm_security",
+    "label": "Communications Security",
+    "description": "Ensure the protection of information in networks and its supporting information processing facilities.",
+    "category": "Network",
+    "keywords": ["Network", "Firewall", "VPN", "Segregation", "Transmission", "WLAN", "IDS", "IPS"],
+    "mappings": {
+      "iso": {
+        "clause": "A.13.1.1",
+        "text": "Networks shall be managed and controlled to protect information in systems and applications."
+      },
+      "soc2": {
+        "clause": "CC6.6",
+        "text": "The entity implements logical access security measures to protect against threats from external networks (boundary protection)."
+      },
+      "pci": {
+        "clause": "1.2",
+        "text": "Network security controls (NSCs) are configured and maintained to protect the cardholder data environment."
+      },
+      "gdpr": {
+        "clause": "Art. 32",
+        "text": "Measures to ensure the security of processing, including the encryption of data in transit across public networks."
+      },
+      "dora": {
+        "clause": "Art. 9",
+        "text": "Financial entities shall implement network security management and segregation of ICT assets based on their criticality."
+      },
+      "nist": {
+        "clause": "PR.NW",
+        "text": "Network integrity and confidentiality are managed and protected."
+      },
+      "cis": {
+        "clause": "Control 12",
+        "text": "Network Infrastructure Management."
+      },
+      "cobit": {
+        "clause": "APO13",
+        "text": "Managed Security."
+      }
+    }
+  },
+  {
+    "id": "sys_dev_maint",
+    "label": "System Acquisition, Development, and Maintenance",
+    "description": "Ensure that information security is an integral part of information systems across the entire lifecycle.",
+    "category": "SDLC",
+    "keywords": ["SDLC", "DAST", "SAST", "Development", "Code", "Testing", "DevSecOps", "Secure Coding", "Environment Segregation"],
+    "mappings": {
+      "iso": {
+        "clause": "A.14.2.1",
+        "text": "Rules for the development of software and systems shall be established and applied to developments within the organization."
+      },
+      "soc2": {
+        "clause": "CC8.1",
+        "text": "The entity authorizes, designs, develops or acquires, tests, operates, approves, and maintains system changes."
+      },
+      "pci": {
+        "clause": "6.1",
+        "text": "Processes and mechanisms for developing and maintaining secure software are defined and understood."
+      },
+      "gdpr": {
+        "clause": "Art. 25",
+        "text": "Data protection by design and by default shall be implemented both at the time of the determination of the means for processing and at the time of the processing itself."
+      },
+      "dora": {
+        "clause": "Art. 9",
+        "text": "Financial entities shall design and implement ICT security policies that include the secure development of software and systems."
+      },
+      "nist": {
+        "clause": "PR.SD",
+        "text": "Software development and system acquisition processes incorporate cybersecurity requirements."
+      },
+      "cis": {
+        "clause": "Control 16",
+        "text": "Application Software Security."
+      },
+      "cobit": {
+        "clause": "BAI03",
+        "text": "Managed Solutions Identification and Build."
+      }
+    }
+  },
+  {
+    "id": "supplier_relationships",
+    "label": "Supplier Relationships",
+    "description": "Ensure protection of the organization’s assets that is accessible by suppliers.",
+    "category": "Third Party",
+    "keywords": ["TPRM", "Third Party Risk Management", "Vendor Risk", "Supply Chain", "SLA", "Contractor"],
+    "mappings": {
+      "iso": {
+        "clause": "A.15.1.1",
+        "text": "Information security requirements for mitigating the risks associated with supplier’s access to the organization’s assets shall be agreed with the supplier and documented."
+      },
+      "soc2": {
+        "clause": "CC9.1",
+        "text": "The entity identifies, selects, and monitors third-party service providers to ensure that services meet the entity’s requirements."
+      },
+      "pci": {
+        "clause": "12.8",
+        "text": "Maintain and implement policies and procedures to manage third-party service providers (TPSPs) with whom cardholder data is shared."
+      },
+      "gdpr": {
+        "clause": "Art. 28",
+        "text": "Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees."
+      },
+      "dora": {
+        "clause": "Art. 28",
+        "text": "Financial entities shall manage ICT third-party risk as an integral component of ICT risk within their ICT risk management framework."
+      },
+      "nist": {
+        "clause": "GV.SC",
+        "text": "Supply chain risk management processes are identified, established, managed, and agreed to by organizational stakeholders."
+      },
+      "cis": {
+        "clause": "Control 15",
+        "text": "Service Provider Management."
+      },
+      "cobit": {
+        "clause": "APO10",
+        "text": "Managed Vendors."
+      }
+    }
+  },
+  {
+    "id": "incident_mgmt",
+    "label": "Information Security Incident Management",
+    "description": "Ensure a consistent and effective approach to the management of information security incidents, including communication on security events and weaknesses.",
+    "category": "Incidents",
+    "keywords": ["IR", "Incident Response", "Breach", "Event", "Security Operations", "SOC", "SIEM", "Investigation"],
+    "mappings": {
+      "iso": {
+        "clause": "A.16.1.1",
+        "text": "Management responsibilities and procedures shall be established to ensure a quick, effective and orderly response to information security incidents."
+      },
+      "soc2": {
+        "clause": "CC7.3",
+        "text": "The entity responds to identified information security incidents and vulnerabilities by executing a defined incident response program."
+      },
+      "pci": {
+        "clause": "12.10",
+        "text": "Implement an incident response plan and be prepared to respond immediately to a system breach."
+      },
+      "gdpr": {
+        "clause": "Art. 33",
+        "text": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the breach."
+      },
+      "dora": {
+        "clause": "Art. 17",
+        "text": "Financial entities shall classify ICT-related incidents and shall determine their impact based on the criteria set out in this Article."
+      },
+      "nist": {
+        "clause": "RS.RP",
+        "text": "Response processes and procedures are executed and maintained, to ensure response to detected cybersecurity incidents."
+      },
+      "cis": {
+        "clause": "Control 17",
+        "text": "Incident Response Management."
+      },
+      "cobit": {
+        "clause": "DSS02",
+        "text": "Managed Service Requests and Incidents."
+      }
+    }
+  },
+  {
+    "id": "bcp_mgmt",
+    "label": "Information Security Aspects of Business Continuity Management",
+    "description": "The organization shall determine its requirements for information security and the continuity of information security management in adverse situations.",
+    "category": "Continuity",
+    "keywords": ["BCP", "DR", "Disaster Recovery", "Resilience", "Availability", "Recovery Time Objective", "RTO", "RPO"],
+    "mappings": {
+      "iso": {
+        "clause": "A.17.1.1",
+        "text": "The organization shall determine its requirements for information security and the continuity of information security management in adverse situations."
+      },
+      "soc2": {
+        "clause": "CC9.1",
+        "text": "The entity assesses and manages risks related to business continuity and disaster recovery to meet its availability commitments."
+      },
+      "pci": {
+        "clause": "12.10.1",
+        "text": "Create and maintain an incident response plan that includes business continuity and disaster recovery procedures."
+      },
+      "gdpr": {
+        "clause": "Art. 32(1)(c)",
+        "text": "The ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident."
+      },
+      "dora": {
+        "clause": "Art. 11",
+        "text": "Financial entities shall put in place a dedicated ICT business continuity policy and ICT response and recovery plans."
+      },
+      "nist": {
+        "clause": "RC.RP",
+        "text": "Recovery processes and procedures are executed and maintained to ensure restoration of systems or assets affected by cybersecurity incidents."
+      },
+      "cis": {
+        "clause": "Control 11",
+        "text": "Data Recovery."
+      },
+      "cobit": {
+        "clause": "DSS04",
+        "text": "Managed Continuity."
+      }
+    }
+  },
+  {
+    "id": "compliance",
+    "label": "Compliance",
+    "description": "Avoid breaches of legal, statutory, regulatory or contractual obligations related to information security and of any security requirements.",
+    "category": "Legal",
+    "keywords": ["Legal", "Regulatory", "Audit", "Statutory", "Contractual", "GDPR", "DORA", "Privacy"],
+    "mappings": {
+      "iso": {
+        "clause": "A.18.1.1",
+        "text": "All relevant legislative statutory, regulatory, contractual requirements and the organization’s approach to meet these requirements shall be explicitly identified."
+      },
+      "soc2": {
+        "clause": "CC1.1",
+        "text": "The entity demonstrates a commitment to integrity and ethical values, including compliance with legal and regulatory requirements."
+      },
+      "pci": {
+        "clause": "12.1",
+        "text": "Establish, publish, maintain, and disseminate a security policy that meets all applicable requirements and regulations."
+      },
+      "gdpr": {
+        "clause": "Art. 5",
+        "text": "Personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject ('lawfulness, fairness and transparency')."
+      },
+      "dora": {
+        "clause": "Art. 50",
+        "text": "Member States shall lay down the rules on administrative penalties and remedial measures applicable to breaches of this Regulation."
+      },
+      "nist": {
+        "clause": "GV.PO",
+        "text": "Cybersecurity policy is established, communicated, and enforced consistent with relevant legal and regulatory requirements."
+      },
+      "cis": {
+        "clause": "Control 1",
+        "text": "Establish and Maintain Inventory and Control of Enterprise Assets."
+      },
+      "cobit": {
+        "clause": "MEA03",
+        "text": "Managed Compliance with External Requirements."
+      }
+    }
+  }
+]
